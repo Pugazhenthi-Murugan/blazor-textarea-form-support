@@ -23,11 +23,20 @@ git clone https://github.com/SyncfusionExamples/blazor-textarea-form-support.git
 cd blazor-textarea-form-support
 ```
 
-### Open the solution in Visual Studio: double-click `BlazorWebApp.sln`, or use the CLI:
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
 
 ```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
 dotnet run 
 ```
 
