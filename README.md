@@ -2,7 +2,7 @@
 
 A minimal starter that demonstrates integrating form support and validation for a [Blazor TextArea](https://www.syncfusion.com/blazor-components/blazor-textarea) component . This repository provides a small Blazor solution showing how to wire a TextArea into EditForm validation and use common form patterns.
 
-## Quick overview
+## Overview
 
 - **Purpose:** Show how to integrate form validation with a TextArea control in a Blazor app.
 - **Solution:** `BlazorWebApp.sln` with a client project and a server/web host project.
@@ -31,14 +31,6 @@ dotnet build
 dotnet run 
 ```
 
-## What you'll find in the repo
-
-- `BlazorWebApp/` — Web host project and top-level app files.
-	- `BlazorWebApp.csproj` — host project file.
-	- `Program.cs` — application bootstrap; add license registration here if needed.
-	- `Components/`, `Pages/`, `wwwroot/` — typical Blazor layout and assets.
-- `BlazorWebApp.Client/` — client-side project files and UI components used by examples.
-
 ## Usage and customization
 
 - Modify pages in `BlazorWebApp/Components/` or `BlazorWebApp.Client/Pages/` to experiment with form models and validation attributes.
@@ -48,4 +40,4 @@ dotnet run
 ## References
 
 - [Blazor forms validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/validation)
-- [Blazor input components (including InputTextArea)](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/input-components)
+- Documentation: https://blazor.syncfusion.com/documentation/textarea/form-support
